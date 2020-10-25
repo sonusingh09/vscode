@@ -1,0 +1,28 @@
+.thumbnailWrapper{
+    width: 23%;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 4px #ccc;
+    border-radius: 6px;
+    margin: 8px;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  .thumbnail{
+    width: 100%;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+  
+  
+  }
+  .heading{
+    font-size: 15px;
+    letter-spacing: 0.8px;
+    margin: 0;
+    padding: 6px;
+  }
+
+  @media(max-width:425px){
+    .thumbnailWrapper{
+      width: 100%;
+    }
+  }
