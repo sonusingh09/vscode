@@ -1,5 +1,11 @@
-
+.mainContainer{
+    margin-top: 100px;
+}
 .videoWrapper{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    display: inline-flex;
+    align-content: space-between;
+    align-items: sp;
   }
